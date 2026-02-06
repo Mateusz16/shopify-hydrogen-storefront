@@ -1,0 +1,32 @@
+{
+  "name": "premium-shopify-storefront",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@remix-run/node": "^2.15.3",
+    "@remix-run/react": "^2.15.3",
+    "@remix-run/serve": "^2.15.3",
+    "@shopify/hydrogen": "^2025.1.2",
+    "@shopify/remix-oxygen": "^3.0.0",
+    "clsx": "^2.1.1",
+    "isbot": "^5.1.20",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.15.3",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.6",
+    "vitest": "^2.1.8"
+  }
+}
